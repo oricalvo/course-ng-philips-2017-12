@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node build/dev"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "open": "^0.0.5",
+    "webpack": "^3.10.0"
+  }
+}
