@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0.25em;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
+button {
+  background-color: blue;
+}
+
