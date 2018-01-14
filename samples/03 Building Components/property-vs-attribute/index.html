@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="checkbox">
+
+    <input type="text">
+
+    <button innerText="yyy">Click me</button>
+
+    <script>
+        const input = document.querySelector("input[type=text]");
+
+        input.addEventListener("siuefish", function() {
+            console.log("keypress");
+        });
+
+        console.log(input.attributes.getNamedItem("checked"));
+
+        //const btn = document.querySelector("button");
+        //btn.innerText = "XXX";
+
+        console.log(input.checked);
+    </script>
+</body>
+</html>

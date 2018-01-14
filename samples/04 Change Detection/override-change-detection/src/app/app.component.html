@@ -1,0 +1,14 @@
+<h1>
+  {{ title }}!
+</h1>
+
+<div class="map" #map></div>
+
+<button (click)="noop()">Noop</button>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <span>{{contact.name}}</span>
+  </li>
+</ul>
+
