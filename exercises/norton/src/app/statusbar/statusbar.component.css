@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  background-color: indianred;
+  color: white;
+}
+
+.error {
+  padding: 0.25em;
+}

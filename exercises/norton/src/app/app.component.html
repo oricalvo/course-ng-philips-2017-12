@@ -1,0 +1,13 @@
+<div class="title">Web Commander Inspired by Norton Commander</div>
+
+<div class="explorers">
+  <app-explorer *ngIf="state.explorer1"
+                [explorer]="state.explorer1"
+                [isActive]="state.active==state.explorer1"></app-explorer>
+
+  <app-explorer *ngIf="state.explorer2"
+                [explorer]="state.explorer2"
+                [isActive]="state.active==state.explorer2"></app-explorer>
+</div>
+
+<app-statusbar></app-statusbar>

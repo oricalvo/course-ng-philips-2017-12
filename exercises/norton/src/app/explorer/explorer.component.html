@@ -1,0 +1,8 @@
+<div class="title">{{explorer.path}}</div>
+
+<ul>
+  <li *ngFor="let item of explorer.items"
+      [ngClass]="{active: isActive && item.active}">
+    <span>{{item.name}}</span>
+  </li>
+</ul>

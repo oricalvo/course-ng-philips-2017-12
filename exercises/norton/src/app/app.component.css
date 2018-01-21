@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.explorers {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.explorers app-explorer {
+  width: 100%;
+  margin-right: 2px;
+}
+
+.explorers app-explorer:last-child {
+  margin-right: 0;
+}
+
+.title {
+  font-size: 1.5em;
+  padding: 0.5em 0.25em;
+  background-color: black;
+  color: white;
+}
+
