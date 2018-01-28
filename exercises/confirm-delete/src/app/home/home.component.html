@@ -1,0 +1,9 @@
+<input><button>Filter</button>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <span>{{contact.name}}</span>
+    <button (click)="remove(contact)">Delete</button>
+  </li>
+</ul>
+
