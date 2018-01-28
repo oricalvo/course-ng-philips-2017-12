@@ -1,0 +1,7 @@
+<h2>Home</h2>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <span><a [routerLink]="['details', contact.id]">{{contact.name}}</a></span>
+  </li>
+</ul>
