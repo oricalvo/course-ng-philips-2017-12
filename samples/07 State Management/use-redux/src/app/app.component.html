@@ -1,0 +1,17 @@
+<h1>Hello Redux</h1>
+
+<h2 *ngIf="state.isLoading">
+  Loading ...
+</h2>
+
+<button (click)="dec()">Dec</button>
+<span>{{state.counter}}</span>
+<button (click)="inc()">Inc</button>
+
+<button (click)="loadContacts()">Load Contacts</button>
+
+<ul>
+  <li *ngFor="let contact of state.contacts">
+    <span>{{contact.name}}</span>
+  </li>
+</ul>
